@@ -1,0 +1,77 @@
+html {
+    background: url("pexels-philip-ackermann-1666021_Easy-Resize.com.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-width: 768px;
+
+}
+
+p{
+    background: #000;
+    color: #fff;
+    padding: 12px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    width: 367px;
+    margin:0;
+    text-align: center;
+}
+.mainContent{
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+.columnContent {
+    display: flex;
+    background: #fff;
+    margin: 0;
+    width: 391px;
+    justify-content: center;
+    padding-top: 4px;
+}
+label{
+    position: relative;
+    top: 7px;
+}
+
+input{
+
+    margin-left: 20px;
+    border-radius: 0;
+    height: 25px;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.button{
+    background: #000;
+    color: #fff;
+    padding: 5px;
+    position: relative;
+    left: 120px;
+    cursor: pointer;
+}
+
+a, a:visited{
+    text-decoration: none;
+    color: inherit;
+}
+
+#answer{
+    text-align: center;
+    padding-bottom: 12px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+
+#numbersAB{
+    display: block;
+    text-align: center;
+}
+

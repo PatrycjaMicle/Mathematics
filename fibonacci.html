@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fibonacci sequence</title>
+    <link rel="stylesheet" href="mainStyle.css">
+
+</head>
+<body>
+<div class="mainContent">
+    <p>Type how many fibonacci elements do you want to get:</p>
+    <div class="columnContent">
+        <label for="quantity">Quantity of elements:</label>
+        <input type="number" id="quantity" name="quantity">
+    </div>
+    <div class="columnContent" id="columnBut">
+        <button class="button" onclick="fibonacci()">Create</button>
+    </div>
+    <div class="columnContent" class="columnAnswer" id="answer"></div>
+    <button class="button"><a href="index.html">Back to the menu</a></button>
+</div>
+
+<script src="fibonacci.js"></script>
+</body>
+</html>
