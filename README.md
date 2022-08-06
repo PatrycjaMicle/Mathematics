@@ -1,3 +1,5 @@
 # Mathematic Exercises
 
-[title](https://www.example.com)
+Write your own number input.
+
+[Check online](https://patrycjamicle.github.io/Mathematics/)
